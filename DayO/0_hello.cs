@@ -1,10 +1,17 @@
 using System;
 
-public class HelloWorld
+class HelloWorld
 {
-    public static int Main()
+    public string Hello;
+
+    public static string GetHello()
     {
-        Console.WriteLine("Hello, World!");
-        return 0;
+        HelloWorld hello = new HelloWorld();
+        hello.Hello = "Hello, World!";
+        return hello.Hello;
+    }
+    public static void Main()
+    {
+        Console.WriteLine(GetHello());
     }
 }
