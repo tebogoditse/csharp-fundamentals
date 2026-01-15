@@ -2,8 +2,8 @@ using System;
 
 class NestedPattern
 {
-
     public int size;
+    
     static void PrintNestedPattern()
     {
         NestedPattern n = new NestedPattern();
