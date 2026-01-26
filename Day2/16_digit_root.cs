@@ -2,29 +2,33 @@ using System;
 
 class DigitalRoot
 {
+    public int num;
+
     static void FindDigitRoot()
     {
-        int num = 9;
+        DigitalRoot n = new DigitalRoot();
+        n.num = int.Parse(Console.ReadLine());
+
         int remainder;
         int sum;
 
-        while (num >= 10)
+        while (n.num >= 10)
         {
             sum = 0;
 
-            while (num != 0)
+            while (n.num != 0)
             {
-                remainder = num % 10;
+                remainder = n.num % 10;
                 sum = sum + remainder;
-                num = num / 10;
+                n.num = n.num / 10;
             }
 
-            num = sum;
+            n.num = sum;
             
         }
 
-        Console.Write(num);
-        
+        Console.Write(n.num);
+
     }
 
     static void Main()
