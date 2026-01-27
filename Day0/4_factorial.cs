@@ -19,6 +19,7 @@ class Factorial
         Console.Write(factorial);
 
     }
+    
     static void Main()
     {
         Fact();
