@@ -3,11 +3,14 @@ using System.Globalization;
 
 class F_to_C
 {
+    public float fahrenheit;
+    
     static string Convert2Celcius()
     {
-        float fahrenheit = 98.6F;
+        F_to_C temparature = new F_to_C();
+        temparature.fahrenheit = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-        float celcius = (fahrenheit - 32) * (5f / 9f);
+        float celcius = (temparature.fahrenheit - 32) * (5f / 9f);
 
         return celcius.ToString("F1" , CultureInfo.InvariantCulture);
     }
