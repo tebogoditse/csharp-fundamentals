@@ -4,7 +4,7 @@ using System.Collections.Generic;
 class Fibonacci
 {
     public int number;
-    
+
     static void Fib()
     {
         List<int> numbers = new List<int>();
@@ -31,7 +31,6 @@ class Fibonacci
             Console.Write(numbers[count] + " ");
         }
 
- 
     }
 
     static void Main()
