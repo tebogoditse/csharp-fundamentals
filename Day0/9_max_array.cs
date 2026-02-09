@@ -25,7 +25,7 @@ class Max
             }
         }
 
-        Console.Write(string.Join(" ", max_num.arr[0]));
+        Console.Write("Max: " + string.Join(" ", max_num.arr[0]));
     }
 
     static void Main()
