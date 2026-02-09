@@ -30,8 +30,6 @@ class Prime
 
     static void Main()
     {
-
         Console.Write(isPrime() ? "Prime" : "Not Prime");
-       
     }
 }

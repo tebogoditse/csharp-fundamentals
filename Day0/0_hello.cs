@@ -10,6 +10,7 @@ class HelloWorld
         hello.Hello = "Hello, World!";
         return hello.Hello;
     }
+    
     public static void Main()
     {
         Console.WriteLine(GetHello());

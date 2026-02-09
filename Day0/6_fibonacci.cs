@@ -30,7 +30,7 @@ class Fibonacci
         {
             Console.Write(numbers[count] + " ");
         }
-
+        
     }
 
     static void Main()

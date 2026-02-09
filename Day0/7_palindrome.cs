@@ -25,7 +25,6 @@ class Palindrome
         }
 
         return "Not a palindrome";
-
     }
     
     static void Main()

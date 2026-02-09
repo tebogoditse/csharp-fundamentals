@@ -16,6 +16,7 @@ class Average
         float result = (avg.num1 + avg.num2 + avg.num3) / 3;
         return result;
     }
+    
     public static void Main()
     {
         Console.WriteLine("Average: " + CalculateAverage().ToString("F2"));

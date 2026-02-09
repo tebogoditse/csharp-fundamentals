@@ -12,6 +12,7 @@ class Sum
         sum.num2 = int.Parse(Console.ReadLine());
         return sum.num1 + sum.num2;
     }
+    
     public static void Main()
     {
         Console.WriteLine("Sum: " + CalculateSum());

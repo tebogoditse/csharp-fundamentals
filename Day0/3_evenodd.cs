@@ -13,6 +13,7 @@ class EvenOdd
         else
             return "Odd";
     }
+    
     public static void Main()
     {
         Console.WriteLine(EvenOrOdd());
