@@ -3,7 +3,7 @@ using System.Linq;
 
 class Palindrome
 {
-    public string word;
+    string word;
 
     static string PalindromeCheck()
     {

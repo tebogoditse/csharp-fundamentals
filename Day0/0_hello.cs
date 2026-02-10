@@ -2,7 +2,7 @@ using System;
 
 class HelloWorld
 {
-    public string Hello;
+    string Hello;
 
     public static string GetHello()
     {

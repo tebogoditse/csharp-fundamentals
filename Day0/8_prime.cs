@@ -2,7 +2,7 @@ using System;
 
 class Prime
 {
-    public int number;
+    int number;
     
     static bool isPrime()
     {

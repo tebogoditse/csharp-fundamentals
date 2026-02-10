@@ -3,7 +3,7 @@ using System.Globalization;
 
 class F_to_C
 {
-    public float fahrenheit;
+    float fahrenheit;
     
     static string Convert2Celcius()
     {

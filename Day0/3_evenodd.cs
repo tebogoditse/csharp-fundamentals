@@ -2,7 +2,7 @@ using System;
 
 class EvenOdd
 {
-    public int number;
+    int number;
 
     public static string EvenOrOdd()
     {

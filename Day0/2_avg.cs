@@ -3,9 +3,9 @@ using System.Globalization;
 
 class Average
 {
-    public float num1;
-    public float num2;
-    public float num3;
+    float num1;
+    float num2;
+    float num3;
 
     public static float CalculateAverage()
     {

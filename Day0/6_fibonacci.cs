@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Fibonacci
 {
-    public int number;
+    int number;
 
     static void Fib()
     {

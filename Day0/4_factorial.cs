@@ -2,7 +2,7 @@ using System;
 
 class Factorial
 {
-    public int num;
+    int num;
 
     static void Fact()
     {

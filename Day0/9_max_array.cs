@@ -3,7 +3,7 @@ using System.Linq;
 
 class Max
 {
-    public int[] arr;
+    int[] arr;
 
     static void MaxArr()
     {
