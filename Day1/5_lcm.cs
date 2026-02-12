@@ -1,4 +1,3 @@
-//static void FindLCM()
 using System;
 using System.Collections.Generic;
 
