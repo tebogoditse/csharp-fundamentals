@@ -1,15 +1,16 @@
+//static void FindLCM()
 using System;
 using System.Collections.Generic;
 
-class GCD
+class LCM
 {
     int number;
 
-    static void FindGCD()
+    static void FindLCM()
     {
         List<int> items = new List<int>();
 
-        GCD n = new GCD();
+        LCM n = new LCM();
 
         int num1 = n.number = int.Parse(Console.ReadLine());
         int num2 = n.number = int.Parse(Console.ReadLine());
@@ -23,11 +24,16 @@ class GCD
             }
         }
 
-        Console.Write(items[items.Count - 1]);
+        int numerator = num1 * num2;
+        int denominator = items[items.Count - 1];
+
+        int lcm = numerator / denominator;
+
+        Console.Write(lcm);
     }
 
     static void Main()
     {
-        FindGCD();
+        FindLCM();
     }
 }
