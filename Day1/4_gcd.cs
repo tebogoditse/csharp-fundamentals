@@ -3,12 +3,16 @@ using System.Collections.Generic;
 
 class GCD
 {
+    int number;
+
     static void FindGCD()
     {
         List<int> items = new List<int>();
 
-        int num1 = 48;
-        int num2 = 18;
+        GCD n = new GCD();
+
+        int num1 = n.number = int.Parse(Console.ReadLine());
+        int num2 = n.number = int.Parse(Console.ReadLine());
 
         int i = 1;
         for (; i <= num1 || i <= num2; i++)
