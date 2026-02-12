@@ -23,14 +23,6 @@ class GCD
             }
         }
 
-        // int item = 0;
-        // for (; item <= items.Count - 1; item++)
-        // {
-        //     Console.Write(items[item] + " ");
-        // }
-
-        //Commented code prints full array
-
         Console.Write(items[items.Count - 1]);
     }
 
