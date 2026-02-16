@@ -24,7 +24,6 @@ class Swap
 
     static void Main()
     {
-
         SwapNumbers();
     }
 }
