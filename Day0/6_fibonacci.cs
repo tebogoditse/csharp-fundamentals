@@ -7,10 +7,7 @@ class Fibonacci
 
     static void Fib()
     {
-        List<int> numbers = new List<int>();
-
-        numbers.Add(0);
-        numbers.Add(1);
+        List<int> numbers = new List<int> {0, 1};
 
         Fibonacci end = new Fibonacci();
         end.number = int.Parse(Console.ReadLine());
