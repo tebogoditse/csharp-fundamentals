@@ -9,8 +9,8 @@ class AddParams
 
     static void Main()
     {
-        int result = Add(4, 5);
+        int sum = Add(4, 5);
 
-        Console.Write("Sum: " + result);
+        Console.Write("Sum: " + sum);
     }
 }
