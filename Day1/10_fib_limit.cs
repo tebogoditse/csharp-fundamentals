@@ -7,10 +7,7 @@ class FibLimit
 
     static void PrintFibonacciUpTo()
     {
-        List<int> list = new List<int>();
-
-        list.Add(0);
-        list.Add(1);
+        List<int> list = new List<int> {0, 1};
 
         FibLimit n = new FibLimit();
         int limit = n.number = int.Parse(Console.ReadLine());
