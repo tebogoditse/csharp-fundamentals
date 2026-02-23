@@ -2,6 +2,8 @@ using System;
 
 class CountVowelsParam
 {
+    string str;
+
     static int CountVowels(string s)
     {
         int count = 0;
@@ -20,7 +22,11 @@ class CountVowelsParam
 
     static void Main()
     {
-        int result = CountVowels("Programming");
+        CountVowelsParam word = new CountVowelsParam();
+
+        string s = word.str = Console.ReadLine();
+
+        int result = CountVowels(s);
 
         Console.Write(result);
     }

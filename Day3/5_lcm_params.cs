@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 class LcmParams
 {
+    int n1, n2;
+
     static int Lcm(int a, int b)
     {
         List<int> list = new List<int>();
@@ -27,9 +29,15 @@ class LcmParams
 
     static void Main()
     {
-        int result = Lcm(12, 18);
+        LcmParams num = new LcmParams();
+
+        string[] inputs = Console.ReadLine().Split(' ');
+
+        int a = num.n1 = int.Parse(inputs[0]);
+        int b = num.n2 = int.Parse(inputs[1]);
+
+        int result = Lcm(a, b);
 
         Console.Write(result);
     }
-
 }

@@ -2,6 +2,8 @@ using System;
 
 class ReverseParam
 {
+    string str;
+
     static string Reverse(string s)
     {
         string newString = s.Trim();
@@ -19,7 +21,11 @@ class ReverseParam
 
     static void Main()
     {
-        string result = Reverse("Tebogo");
+        ReverseParam word = new ReverseParam();
+
+        string s = word.str = Console.ReadLine();
+
+        string result = Reverse(s);
 
         Console.Write(result);
     }
