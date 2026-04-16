@@ -15,7 +15,7 @@ public class ConsoleLogger : ILogger
 
 public class Service 
 {
-    private ILogger logger;
+    private readonly ILogger logger;
 
     public Service(ILogger logger)
     {
@@ -33,9 +33,6 @@ class Program
 {
     static void Main()
     {
-        ILogger logger = new ConsoleLogger();
-        Service log = new Service(logger);
-
-        log.DoWork();
+        new Service(new ConsoleLogger()).DoWork();
     }
 }
