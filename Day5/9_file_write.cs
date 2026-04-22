@@ -6,7 +6,8 @@ public class FileWriter
     public void WriteText(string path, string content)
     {
         File.WriteAllText(path, content);
-        Console.WriteLine("File written successfully.");
+        int data = System.Text.Encoding.UTF8.GetByteCount(content);
+        Console.WriteLine("Wrote " + data + " bytes to " + path);
     }
 }
 
